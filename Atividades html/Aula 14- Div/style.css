@@ -1,0 +1,97 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background-color:#f2f2f2;
+}
+
+.menu{
+    background-color:black;
+    padding:15px;
+    text-align:center;
+}
+
+.menu a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+}
+
+.topo{
+    background-color:#ddd;
+    padding:20px;
+    text-align:center;
+}
+
+.caixa{
+    background-color:white;
+    margin:20px;
+    padding:20px;
+    border:1px solid black;
+}
+
+/* static */
+.static{
+    position:static;
+}
+
+/* relative */
+.relative{
+    position:relative;
+    left:20px;
+    background-color:lightblue;
+}
+
+/* absolute */
+.pai{
+    position:relative;
+    height:150px;
+    background-color:#ccc;
+}
+
+.absolute{
+    position:absolute;
+    top:20px;
+    right:20px;
+    background-color:lightgreen;
+    padding:10px;
+}
+
+/* fixed */
+.fixed{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    background-color:red;
+    color:white;
+    padding:10px;
+}
+
+/* sticky */
+.sticky{
+    position:sticky;
+    top:0;
+    background-color:orange;
+    padding:10px;
+}
+
+/* flex */
+.flex{
+    display:flex;
+    justify-content:space-between;
+    background-color:#ddd;
+    padding:10px;
+}
+
+/* grid */
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+.item{
+    background-color:white;
+    padding:20px;
+    border:1px solid black;
+}
