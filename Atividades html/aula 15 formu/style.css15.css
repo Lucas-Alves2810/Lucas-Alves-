@@ -1,0 +1,50 @@
+body,pre,textarea{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background-color:#f2f2f2;
+}
+
+.menu{
+    background-color:#009C3B;
+    padding:15px;
+    text-align:center;
+}
+
+.menu a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+}
+
+.topo{
+    background-image: url("https://cdn.jornaldaparaiba.com.br/img/inline/210000/Copa-do-Mundo-2026-conheca-a-Trionda-bola-oficial-0021348700202510040824.webp?xid=1170998");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.topo h1{
+    text-shadow: 2px 2px 5px black;
+    font-size: 50px;
+}
+
+.topopalpites{
+    background-image: url("https://www.365scores.com/pt-br/news/magazine/wp-content/uploads/2026/06/cr7-neymar-messi.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 300px 20px;
+    text-align: center;
+    color: white;
+}
+
+.topopalpites h1{
+    text-shadow: 2px 2px 5px black;
+    font-size: 50px;
+}
+
