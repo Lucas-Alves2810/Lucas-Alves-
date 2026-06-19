@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th{
+    background-color: #1b5e20;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+video{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
